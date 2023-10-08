@@ -1,0 +1,195 @@
+body{
+    font-family: "Arial";
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #5a005a;
+}
+
+header{
+    background-color: #5a005a;
+    padding: 20px;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 60px;
+    color: white;
+}
+nav li{
+    display: inline;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+nav a:hover{
+    color: black;
+ 
+}
+.logo_caixa{
+    position: relative;
+    width: 800px;
+    margin: auto;
+    border: 5;
+}
+.logo{
+    width: 20%;
+}
+
+.Banner{
+    width: 100%
+}
+
+/*Sobre o Sport Club Corinthians*/
+
+.titulo-sobre{
+    text-align: center;
+    clear: left;
+}
+
+.img-historia{
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+
+}
+.conteudo-caixa{
+    background-color: #f8f4f4;
+    padding: 15px;
+    
+}
+
+/*fonte*/
+
+.titulo-sobre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Hino{
+    text-align: center;
+}
+.titulo-padrao{
+     text-align: center;
+    font-size: 1.5em;
+    padding: 0%;
+}
+/*Estilização da sessão Nosso estabelecimento*/
+.mapa{
+    text-align: center;
+    background-color: rgb(248, 244, 244);
+    padding: 15px;
+    background: linear-gradient(180deg, rgba(248,244,244,1) 0%, rgba(255,202,248,1) 22%, rgba(90,0,90,1) 84%);
+
+}
+
+.img-mapa{
+    width: 100%;
+    max-width: 1000px;
+    height: 450px;
+}
+
+.beneficios{
+    background-color: #5a005a;
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.titulo-beneficios {
+    font-size: 1.5em;
+    color: #f8f4f4;
+}
+
+.lista-beneficios{
+    display: inline-block;
+    text-align: center; /* Centraliza o texto da lista */
+}
+.lista-beneficios li{
+    line-height: 50px;
+    font-size: 1.2em;
+    color: #f8f4f4;
+    list-style: none;
+    margin-left: -50px;
+}
+.conteudo-beneficios{
+    width: 100%;
+    text-align: center;
+}
+
+.video{
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+/*Estilização do footer*/
+
+.logo_footer{
+    width: 5%;
+}
+
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background: black;
+    padding: 10px 0 ;
+    border-top: 1px solid white;
+}
+
+.copyright{
+    color: #f8f4f4;
+    font-size: 12px;
+    margin: 20px;
+}
+
+/*Estilização Segunda Página*/
+
+.textbanner {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.socios {
+    background-color: black;
+}
+
+.colunaimg {
+    display: flex;
+    gap: 0px;
+}
+
+.imagemSocio {
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.imagemSocio img {
+    width: 100%;
+    height: auto;
+}
+
+.imagemSocio:hover {
+    transform: scale(1.1);
+}
+
+.bannerFiel {
+    padding: 30px 0;
+    display: flex;
+    margin: 0 auto;
+}
+
+.videoTour {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
